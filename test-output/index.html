@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.confluence.test.CreateNewPageTest_Blank" hash-for-method="CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Build with heart a...)">CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Build with heart a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.confluence.test.CreateNewPageTest_Blank" hash-for-method="CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Open company, no b...)">CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Open company, no b...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.confluence.test.CreateNewPageTest_Blank" hash-for-method="CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Don&#039;t #@!% the cus...)">CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Don't #@!% the cus...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.confluence.test.CreateNewPageTest_Blank" hash-for-method="CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Be the change you ...)">CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Be the change you ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.confluence.test.CreateNewPageTest_Blank" hash-for-method="CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Play, as a team, W...)">CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Play, as a team, W...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.confluence.test.CreateNewPageTest_Blank</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Build with heart a...)">
+                  </a> <!-- CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Build with heart a...) -->
+                  <span class="method-name">CreateNewBlankPage</span>
+                  <span class="parameters">(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Build with heart and balance, “Measure twice, cut once.” Whether you're building a birdhouse or a business, this is good advice. Passion and urgency infuse everything we do, alongside the wisdom to consider options fully and with care. Then we make the cut, and we get to work.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Open company, no b...)">
+                  </a> <!-- CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Open company, no b...) -->
+                  <span class="method-name">CreateNewBlankPage</span>
+                  <span class="parameters">(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Open company, no bullshit, Openness is root level for us. Information is open internally by default and sharing is a first principle. And we understand that speaking your mind requires equal parts brains (what to say), thoughtfulness (when to say it), and caring (how it’s said).)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Don&#039;t #@!% the cus...)">
+                  </a> <!-- CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Don't #@!% the cus...) -->
+                  <span class="method-name">CreateNewBlankPage</span>
+                  <span class="parameters">(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Don't #@!% the customer, Customers are our lifeblood. Without happy customers, we’re doomed. So considering the customer perspective - collectively, not just a handful - comes first.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Be the change you ...)">
+                  </a> <!-- CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Be the change you ...) -->
+                  <span class="method-name">CreateNewBlankPage</span>
+                  <span class="parameters">(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Be the change you seek, All Atlassians should have the courage and resourcefulness to spark change – to make better our products, our people, our place. Continuous improvement is a shared responsibility. Action is an independent one.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Play, as a team, W...)">
+                  </a> <!-- CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Play, as a team, W...) -->
+                  <span class="method-name">CreateNewBlankPage</span>
+                  <span class="parameters">(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Play, as a team, We spend a huge amount of our time at work. So the more that time doesn’t feel like “work,” the better. We can be serious, without taking ourselves too seriously. We strive to put what’s right for the team first – whether in a meeting room or on a football pitch.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/b3/9p3mvp5n2dx3qmd6fzs31kz40000gn/T/testng-eclipse-1409794069/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.confluence.test.CreateNewPageTest_Blank&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CreateNewBlankPage')
+data.setCell(0, 2, 'com.confluence.test.CreateNewPageTest_Blank')
+data.setCell(0, 3, 172360);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CreateNewBlankPage')
+data.setCell(1, 2, 'com.confluence.test.CreateNewPageTest_Blank')
+data.setCell(1, 3, 145089);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CreateNewBlankPage')
+data.setCell(2, 2, 'com.confluence.test.CreateNewPageTest_Blank')
+data.setCell(2, 3, 122711);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CreateNewBlankPage')
+data.setCell(3, 2, 'com.confluence.test.CreateNewPageTest_Blank')
+data.setCell(3, 3, 109588);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CreateNewBlankPage')
+data.setCell(4, 2, 'com.confluence.test.CreateNewPageTest_Blank')
+data.setCell(4, 3, 95701);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.confluence.test.CreateNewPageTest_Blank</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Open company, no b...)</span>
+                <span class="method-start">9951 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">132665 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">132886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Build with heart a...)</span>
+                <span class="method-start">139888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">249478 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">249646 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Don't #@!% the cus...)</span>
+                <span class="method-start">256571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">428934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">429122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Play, as a team, W...)</span>
+                <span class="method-start">436751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">581841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">582065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CreateNewBlankPage(Yes, https://pcaande.atlassian.net/login, ppeneojy@gmail.com, testCandidate!@#$%, Be the change you ...)</span>
+                <span class="method-start">589255 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">684957 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
