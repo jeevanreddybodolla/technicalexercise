@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="685528" started-at="2016-03-13T09:27:03Z" finished-at="2016-03-13T09:38:28Z">
+  <suite name="Default suite" duration-ms="1704644" started-at="2016-03-13T12:19:41Z" finished-at="2016-03-13T12:48:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="685528" started-at="2016-03-13T09:27:03Z" finished-at="2016-03-13T09:38:28Z">
+    <test name="Default test" duration-ms="1704644" started-at="2016-03-13T12:19:41Z" finished-at="2016-03-13T12:48:06Z">
       <class name="com.confluence.test.CreateNewPageTest_Blank">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="SetUp" is-config="true" duration-ms="9951" started-at="2016-03-13T17:27:03Z" finished-at="2016-03-13T17:27:13Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="SetUp" is-config="true" duration-ms="19295" started-at="2016-03-13T20:19:42Z" finished-at="2016-03-13T20:20:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="CreateNewBlankPage" duration-ms="122711" started-at="2016-03-13T17:27:13Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T17:29:16Z">
+        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="CreateNewBlankPage" duration-ms="293526" started-at="2016-03-13T20:20:02Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T20:24:55Z">
           <params>
             <param index="0">
               <value>
@@ -47,15 +47,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateNewBlankPage -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="TearDown" is-config="true" duration-ms="220" started-at="2016-03-13T17:29:16Z" finished-at="2016-03-13T17:29:16Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="TearDown" is-config="true" duration-ms="746" started-at="2016-03-13T20:24:55Z" finished-at="2016-03-13T20:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="SetUp" is-config="true" duration-ms="7002" started-at="2016-03-13T17:29:16Z" finished-at="2016-03-13T17:29:23Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="SetUp" is-config="true" duration-ms="8997" started-at="2016-03-13T20:24:56Z" finished-at="2016-03-13T20:25:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="CreateNewBlankPage" duration-ms="109588" started-at="2016-03-13T17:29:23Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T17:31:13Z">
+        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="CreateNewBlankPage" duration-ms="278439" started-at="2016-03-13T20:25:05Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T20:29:43Z">
           <params>
             <param index="0">
               <value>
@@ -91,15 +91,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateNewBlankPage -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="TearDown" is-config="true" duration-ms="168" started-at="2016-03-13T17:31:13Z" finished-at="2016-03-13T17:31:13Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="TearDown" is-config="true" duration-ms="539" started-at="2016-03-13T20:29:43Z" finished-at="2016-03-13T20:29:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="SetUp" is-config="true" duration-ms="6925" started-at="2016-03-13T17:31:13Z" finished-at="2016-03-13T17:31:20Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="SetUp" is-config="true" duration-ms="7580" started-at="2016-03-13T20:29:44Z" finished-at="2016-03-13T20:29:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="CreateNewBlankPage" duration-ms="172360" started-at="2016-03-13T17:31:20Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T17:34:12Z">
+        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="CreateNewBlankPage" duration-ms="344521" started-at="2016-03-13T20:29:51Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T20:35:36Z">
           <params>
             <param index="0">
               <value>
@@ -135,15 +135,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateNewBlankPage -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="TearDown" is-config="true" duration-ms="188" started-at="2016-03-13T17:34:12Z" finished-at="2016-03-13T17:34:12Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="TearDown" is-config="true" duration-ms="738" started-at="2016-03-13T20:35:36Z" finished-at="2016-03-13T20:35:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="SetUp" is-config="true" duration-ms="7629" started-at="2016-03-13T17:34:12Z" finished-at="2016-03-13T17:34:20Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="SetUp" is-config="true" duration-ms="8091" started-at="2016-03-13T20:35:37Z" finished-at="2016-03-13T20:35:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="CreateNewBlankPage" duration-ms="145089" started-at="2016-03-13T17:34:20Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T17:36:45Z">
+        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="CreateNewBlankPage" duration-ms="363740" started-at="2016-03-13T20:35:45Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T20:41:48Z">
           <params>
             <param index="0">
               <value>
@@ -179,15 +179,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateNewBlankPage -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="TearDown" is-config="true" duration-ms="224" started-at="2016-03-13T17:36:45Z" finished-at="2016-03-13T17:36:45Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="TearDown" is-config="true" duration-ms="382" started-at="2016-03-13T20:41:48Z" finished-at="2016-03-13T20:41:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="SetUp" is-config="true" duration-ms="7190" started-at="2016-03-13T17:36:45Z" finished-at="2016-03-13T17:36:53Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="SetUp" is-config="true" duration-ms="6645" started-at="2016-03-13T20:41:49Z" finished-at="2016-03-13T20:41:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="CreateNewBlankPage" duration-ms="95701" started-at="2016-03-13T17:36:53Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T17:38:28Z">
+        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="CreateNewBlankPage" duration-ms="369638" started-at="2016-03-13T20:41:56Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T20:48:05Z">
           <params>
             <param index="0">
               <value>
@@ -223,7 +223,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateNewBlankPage -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@6d85ada3]" name="TearDown" is-config="true" duration-ms="123" started-at="2016-03-13T17:38:28Z" finished-at="2016-03-13T17:38:28Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="TearDown" is-config="true" duration-ms="391" started-at="2016-03-13T20:48:05Z" finished-at="2016-03-13T20:48:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
