@@ -21,7 +21,7 @@ The project contains two Tests that are located in src/test/java/com/confluence/
 
 * Each test case has its own worksheet. The sheet will contain a table to a scenario that the script will call through TestNG.
 * The table will contain the test data used to feed parameters in its appropriate script.
-* Each row is 1 group of test data that will consist of 1 scenario.
+* Each row is a group of test data that will be fed by testNG per execution run.
 * If a row is marked "No" in the Execute Column, the script will skip over it.
 ![Screen Shot 2016-03-13 at 7.58.34 PM.png](https://bitbucket.org/repo/q8gEBn/images/2926596532-Screen%20Shot%202016-03-13%20at%207.58.34%20PM.png)
 
