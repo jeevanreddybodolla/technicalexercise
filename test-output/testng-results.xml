@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1704644" started-at="2016-03-13T12:19:41Z" finished-at="2016-03-13T12:48:06Z">
+  <suite name="Default suite" duration-ms="90915" started-at="2016-03-20T11:35:35Z" finished-at="2016-03-20T11:37:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1704644" started-at="2016-03-13T12:19:41Z" finished-at="2016-03-13T12:48:06Z">
-      <class name="com.confluence.test.CreateNewPageTest_Blank">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="SetUp" is-config="true" duration-ms="19295" started-at="2016-03-13T20:19:42Z" finished-at="2016-03-13T20:20:02Z">
+    <test name="Default test" duration-ms="90915" started-at="2016-03-20T11:35:35Z" finished-at="2016-03-20T11:37:06Z">
+      <class name="com.confluence.test.EditRestrictionsOnExistingPage$CreateNewPageTest_Blank">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.EditRestrictionsOnExistingPage$CreateNewPageTest_Blank@3889c1ee]" name="SetUp" is-config="true" duration-ms="10069" started-at="2016-03-20T19:35:36Z" finished-at="2016-03-20T19:35:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="CreateNewBlankPage" duration-ms="293526" started-at="2016-03-13T20:20:02Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T20:24:55Z">
+        <test-method status="PASS" signature="SetRestrictions(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.EditRestrictionsOnExistingPage$CreateNewPageTest_Blank@3889c1ee]" name="SetRestrictions" duration-ms="39155" started-at="2016-03-20T19:35:46Z" data-provider="DP For Validate Restriction Access" finished-at="2016-03-20T19:36:25Z">
           <params>
             <param index="0">
               <value>
@@ -35,27 +35,32 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Open company, no bullshit]]>
+                <![CDATA[Test]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Openness is root level for us. Information is open internally by default and sharing is a first principle. And we understand that speaking your mind requires equal parts brains (what to say), thoughtfulness (when to say it), and caring (how it’s said).]]>
+                <![CDATA[2016-03-09 Meeting notes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Philip Caande]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateNewBlankPage -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="TearDown" is-config="true" duration-ms="746" started-at="2016-03-13T20:24:55Z" finished-at="2016-03-13T20:24:56Z">
+        </test-method> <!-- SetRestrictions -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.EditRestrictionsOnExistingPage$CreateNewPageTest_Blank@3889c1ee]" name="TearDown" is-config="true" duration-ms="328" started-at="2016-03-20T19:36:25Z" finished-at="2016-03-20T19:36:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="SetUp" is-config="true" duration-ms="8997" started-at="2016-03-13T20:24:56Z" finished-at="2016-03-13T20:25:05Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.EditRestrictionsOnExistingPage$CreateNewPageTest_Blank@3889c1ee]" name="SetUp" is-config="true" duration-ms="5938" started-at="2016-03-20T19:36:25Z" finished-at="2016-03-20T19:36:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="CreateNewBlankPage" duration-ms="278439" started-at="2016-03-13T20:25:05Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T20:29:43Z">
+        <test-method status="PASS" signature="SetRestrictions(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.EditRestrictionsOnExistingPage$CreateNewPageTest_Blank@3889c1ee]" name="SetRestrictions" duration-ms="34783" started-at="2016-03-20T19:36:31Z" data-provider="DP For Validate Restriction Access" finished-at="2016-03-20T19:37:06Z">
           <params>
             <param index="0">
               <value>
@@ -79,155 +84,28 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Build with heart and balance]]>
+                <![CDATA[Test]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[“Measure twice, cut once.” Whether you're building a birdhouse or a business, this is good advice. Passion and urgency infuse everything we do, alongside the wisdom to consider options fully and with care. Then we make the cut, and we get to work.]]>
+                <![CDATA[TestPage]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Philip Caande]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateNewBlankPage -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="TearDown" is-config="true" duration-ms="539" started-at="2016-03-13T20:29:43Z" finished-at="2016-03-13T20:29:44Z">
+        </test-method> <!-- SetRestrictions -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.EditRestrictionsOnExistingPage$CreateNewPageTest_Blank@3889c1ee]" name="TearDown" is-config="true" duration-ms="187" started-at="2016-03-20T19:37:06Z" finished-at="2016-03-20T19:37:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="SetUp" is-config="true" duration-ms="7580" started-at="2016-03-13T20:29:44Z" finished-at="2016-03-13T20:29:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="CreateNewBlankPage" duration-ms="344521" started-at="2016-03-13T20:29:51Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T20:35:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://pcaande.atlassian.net/login]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ppeneojy@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[testCandidate!@#$%]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Don't #@!% the customer]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Customers are our lifeblood. Without happy customers, we’re doomed. So considering the customer perspective - collectively, not just a handful - comes first.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateNewBlankPage -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="TearDown" is-config="true" duration-ms="738" started-at="2016-03-13T20:35:36Z" finished-at="2016-03-13T20:35:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="SetUp" is-config="true" duration-ms="8091" started-at="2016-03-13T20:35:37Z" finished-at="2016-03-13T20:35:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="CreateNewBlankPage" duration-ms="363740" started-at="2016-03-13T20:35:45Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T20:41:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://pcaande.atlassian.net/login]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ppeneojy@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[testCandidate!@#$%]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Play, as a team]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[We spend a huge amount of our time at work. So the more that time doesn’t feel like “work,” the better. We can be serious, without taking ourselves too seriously. We strive to put what’s right for the team first – whether in a meeting room or on a football pitch.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateNewBlankPage -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="TearDown" is-config="true" duration-ms="382" started-at="2016-03-13T20:41:48Z" finished-at="2016-03-13T20:41:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="SetUp" is-config="true" duration-ms="6645" started-at="2016-03-13T20:41:49Z" finished-at="2016-03-13T20:41:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="CreateNewBlankPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="CreateNewBlankPage" duration-ms="369638" started-at="2016-03-13T20:41:56Z" data-provider="DP For Creation of Blank Page" finished-at="2016-03-13T20:48:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://pcaande.atlassian.net/login]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ppeneojy@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[testCandidate!@#$%]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Be the change you seek]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[All Atlassians should have the courage and resourcefulness to spark change – to make better our products, our people, our place. Continuous improvement is a shared responsibility. Action is an independent one.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateNewBlankPage -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.confluence.test.CreateNewPageTest_Blank@39401e69]" name="TearDown" is-config="true" duration-ms="391" started-at="2016-03-13T20:48:05Z" finished-at="2016-03-13T20:48:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.confluence.test.CreateNewPageTest_Blank -->
+      </class> <!-- com.confluence.test.EditRestrictionsOnExistingPage$CreateNewPageTest_Blank -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
